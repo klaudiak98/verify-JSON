@@ -1,0 +1,15 @@
+{
+  "name": "verify-json",
+  "version": "1.0.0",
+  "description": "Function verifying the input JSON data.",
+  "main": "src/verifyJSON.js",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine --config=jasmine.json"
+  },
+  "author": "Klaudia Kieryk",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
