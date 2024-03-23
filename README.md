@@ -25,7 +25,7 @@ Required fields:
   - pattern: [\w+=,.@-]+
   - min length: 1
   - max length: 128
-- PolicyDocument:
+- PolicyDocument
   - type: _JSON_
 
 ### Example valid case
@@ -72,7 +72,7 @@ Required fields:
 
 > ./spec/testCases - directory with test cases (JSON files)
 
-Unit tests are implemented with **Jasmine**.
+Unit tests are implemented with **[Jasmine](https://jasmine.github.io/index.html)**.
 
 ## How to run
 
