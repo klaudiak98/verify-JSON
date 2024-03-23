@@ -1,0 +1,17 @@
+{
+    "PolicyName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dui congue, rutrum ex id, accumsan nunc. Curabitur auctor quis",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "IamListAccess",
+                "Effect": "Allow",
+                "Action": [
+                    "iam:ListRoles",
+                    "iam:ListUsers"
+                ],
+                "Resource": "arn:aws:s3:::examplebucket/*"
+            }
+        ]
+    }
+}
